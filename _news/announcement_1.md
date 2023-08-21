@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted to <a href='https://epubs.siam.org/doi/full/10.1137/21M1430005'>SIAM Journal of Optimization </a> 
+Paper published at <a href='https://epubs.siam.org/doi/full/10.1137/21M1430005'>SIAM Journal of Optimization </a> 
