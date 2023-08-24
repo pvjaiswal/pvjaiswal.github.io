@@ -1,34 +1,23 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Pati":
+  - firstname: ["Debdeep", "D.", "D. P.", "Debdeep Pati"]
+    url: https://web.stat.tamu.edu/~debdeep/Home.html
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Anirban":
+  - firstname: ["Anirban", "A.", "A. B.", "Anirban Bhattacharya"]
+    url: https://sites.google.com/view/anirban-bhattacharya-tamu/home?authuser=0
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Mallick":
+  - firstname: ["Bani", "B.","B. K. M.", "Bani K. Mallick"]
+    url: https://web.stat.tamu.edu/~bmallick/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Rao":
+  - firstname: ["Vinayak","V.","V. A. R.", "Vinayak A. Rao"]
+    url: https://varao.github.io
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Honnappa":
+  - firstname: ["Harsha","H.","H. H.","Harsha Honnappa"]
+    url: https://engineering.purdue.edu/SSL/about
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Pasupathy":
+  - firstname: ["Raghu","R.", "R. P.", "Raghu Pasupathy"]
+    url: https://web.ics.purdue.edu/~pasupath/
