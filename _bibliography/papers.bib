@@ -10,7 +10,20 @@
       eprint={2309.06349},
       archivePrefix={arXiv},
       primaryClass={stat.ML},
-      journal      = {arXiv preprint arXiv:2309.06349}
+      journal      = {arXiv preprint arXiv:2309.06349},
+      abstract = { Thompson sampling (TS) is one of the most popular and earliest algorithms to solve stochas-
+tic multi-armed bandit problems. We consider a variant of \alpha-TS where we use a
+fractional posterior instead of the standard posterior distribution. To com-
+pute a fractional posterior, the likelihood in the definition of the standard posterior is tempered with a
+factor \alpha. For \alpha-TS we obtain both instance-dependent and instance-independent
+frequentist regret bounds under very mild conditions on the prior and reward distributions, 
+Both the sub-Gaussian and exponential family models satisfy our general conditions on the reward distribution. 
+Our conditions on the prior distribution just require its density to be positive, continuous, and bounded. 
+We also establish another instance-dependent regret upper bound that matches (up to constants) to that of 
+improved UCB [Auer and Ortner, 2010]. Our regret analysis carefully combines recent theoretical developments 
+in the non-asymptotic concentration analysis and Bernstein-von Mises type results for the fractional posterior 
+distribution. Moreover, our analysis does not require additional structural
+properties such as closed-form posteriors or conjugate priors. }
 }
 
 @INPROCEEDINGS{JaiswalSAA,
@@ -21,7 +34,9 @@
   volume={},
   number={},
   pages={1874-1885},
-  doi={10.1109/WSC.2018.8632258}}
+  doi={10.1109/WSC.2018.8632258},
+  abstract = {We consider a single stage stochastic program without recourse with a strictly convex loss function. We assume a compact decision space and grid it with a finite set of points. In addition, we assume that the decision maker can generate samples of the stochastic variable independently at each grid point and form a sample average approximation (SAA) of the stochastic program. Our objective in this paper is to characterize an asymptotically optimal linear sample allocation rule, given a fixed sampling budget, which maximizes the decay rate of probability of making false decision.}
+   }
 
 
 @INPROCEEDINGS{RuixinVAC,
@@ -32,7 +47,9 @@
   volume={},
   number={},
   pages={596-607},
-  doi={10.1109/WSC48552.2020.9383967}}
+  doi={10.1109/WSC48552.2020.9383967},
+  abstract = {We present a new method for estimating the stochastic intensity of a doubly stochastic Poisson process. Statistical and theoretical analyses of traffic traces show that these processes are appropriate models of high intensity traffic arriving at an array of service systems. The statistical estimation of the underlying latent stochastic intensity process driving the traffic model involves a rather complicated nonlinear filtering problem. We develop a novel simulation method, using deep neural networks to approximate the path measures induced by the stochastic intensity process, for solving this nonlinear filtering problem. Our simulation studies demonstrate that the method is quite accurate on both in-sample estimation and on an out-of-sample performance prediction task for an infinite server queue.}
+  }
 
 
 @article{JaiswalRenyi, 
@@ -53,7 +70,8 @@ abstract = {We study the asymptotic consistency properties of α-R\'{e}nyi appro
   booktitle={Symposium on Advances in Approximate {B}ayesian Inference},
   pages={1--12},
   year={2020},
-  organization={PMLR}
+  organization={PMLR},
+  abstract = {We study system design problems stated as parameterized stochastic programs with a chance-constraint set. We adopt a Bayesian approach that requires the computation of a posterior predictive integral which is usually intractable. In addition, for the problem to be a well-dened convex program, we must retain the convexity of the feasible set. Consequently, we propose a variational Bayes-based method to approximately compute the posterior predictive integral that ensures tractability and retains the convexity of the feasible set. Under certain regularity conditions, we also show that the solution set obtained using variational Bayes converges to the true solution set as the number of observations tends to infinity. We also provide bounds on the probability of qualifying a true infeasible point (with respect to the true constraints) as feasible under the VB approximation for a given number of samples.}
 }
 
 @inproceedings{jaiswal2020statistical,
@@ -62,7 +80,8 @@ abstract = {We study the asymptotic consistency properties of α-R\'{e}nyi appro
   booktitle={2020 Winter Simulation Conference (WSC)},
   pages={2138--2148},
   year={2020},
-  organization={IEEE}
+  organization={IEEE},
+  abstract = {This paper studies a generic Bayesian optimal design formulation with chance constraints, where the decision variable lies in a separable, reflexive Banach space. This setting covers a gamut of simulation and modeling problems that we illustrate through two example problem formulations. The posterior objective cannot be computed, in general, and it is necessary to use approximate Bayesian inference. Sampling-based approximate inference, however, introduces significant variance and, in general, leads to non-convex approximate feasible sets, even when the original problem is convex. In this paper, we use variational Bayesian approximations that introduce no variance and retain the convexity of the feasibility set, subject to easily satisfied regularity conditions on the approximate posterior, albeit at the expense of a much larger bias. Our main results, therefore, establish large sample asymptotic consistency of the optimal solutions and optimal value of this approximate Bayesian optimal design formulation.}
 }
 
 @article{JaiswalLCVB,
@@ -74,14 +93,16 @@ abstract = {We study the asymptotic consistency properties of α-R\'{e}nyi appro
   number = {1},
   author = {Jaiswal, Prateek and Honnappa, Harsha and Rao, Vinayak A.},
   title = {Asymptotic consistency of loss-calibrated variational {{Bayes}}},
-  journal = {Stat}
+  journal = {Stat},
+  abstract = {This paper establishes the asymptotic consistency of the loss‐calibrated variational Bayes (LCVB) method. LCVB is a method for approximately computing Bayesian posterior approximations in a “loss aware” manner. This methodology is also highly relevant in general data‐driven decision‐making contexts. Here, we establish the asymptotic consistency of both the loss‐ calibrated approximate posterior and the resulting decision rules. We also establish the asymptotic consistency of decision rules obtained from a “naive” two‐stage procedure that first computes a standard variational Bayes approximation and then uses this in the decision‐making procedure.}
 }
 
 @article{jaiswalRSVB,
   title={Risk-Sensitive Variational {{B}ayes}: Formulations and Bounds},
   author={Jaiswal, Prateek and Honnappa, Harsha and Rao, Vinayak A},
   journal={arXiv preprint arXiv:1903.05220v3},
-  year={2019}
+  year={2019},
+  abstract = {We study data-driven decision-making problems in the Bayesian framework, where the expectation in the Bayes risk is replaced by a risk-sensitive entropic risk measure. We focus on problems where calculating the posterior distribution is intractable, a typical situation in modern applications with large datasets and complex data generating models. We leverage a dual representation of the entropic risk measure to introduce a novel risk-sensitive variational Bayesian (RSVB) framework for jointly computing a risk-sensitive posterior approximation and the corresponding decision rule. The proposed RSVB framework can be used to extract computational methods for doing risk-sensitive approximate Bayesian inference. We show that our general framework includes two well-known computational methods for doing approximate Bayesian inference viz. naive VB and loss-calibrated VB. We also study the impact of these computational approximations on the predictive performance of the inferred decision rules and values. We compute the convergence rates of the RSVB approximate posterior and also of the corresponding optimal value and decision rules. We illustrate our theoretical findings in both parametric and nonparametric settings with the help of three examples: the single and multi-product newsvendor model and Gaussian process classification.}
 }
 
 @article{JaiswalBJCCP,
@@ -95,7 +116,7 @@ year = {2023},
 doi = {10.1137/21M1430005},
 URL = { https://doi.org/10.1137/21M1430005},
 eprint = { https://doi.org/10.1137/21M1430005},
-    abstract = { Abstract. This paper considers data-driven chance-constrained stochastic optimization problems in a Bayesian framework. Bayesian posteriors afford a principled mechanism to incorporate data and prior knowledge into stochastic optimization problems. However, the computation of Bayesian posteriors is typically an intractable problem and has spawned a large literature on approximate Bayesian computation. Here, in the context of chance-constrained optimization, we focus on the question of statistical consistency (in an appropriate sense) of the optimal value, computed using an approximate posterior distribution. To this end, we rigorously prove a frequentist consistency result demonstrating the convergence of the optimal value to the optimal value of a fixed, parameterized constrained optimization problem. We augment this by also establishing a probabilistic rate of convergence of the optimal value. We also prove the convex feasibility of the approximate Bayesian stochastic optimization problem. Finally, we demonstrate the utility of our approach on an optimal staffing problem for an M/M/c queueing model. }
+    abstract = {This paper considers data-driven chance-constrained stochastic optimization problems in a Bayesian framework. Bayesian posteriors afford a principled mechanism to incorporate data and prior knowledge into stochastic optimization problems. However, the computation of Bayesian posteriors is typically an intractable problem and has spawned a large literature on approximate Bayesian computation. Here, in the context of chance-constrained optimization, we focus on the question of statistical consistency (in an appropriate sense) of the optimal value, computed using an approximate posterior distribution. To this end, we rigorously prove a frequentist consistency result demonstrating the convergence of the optimal value to the optimal value of a fixed, parameterized constrained optimization problem. We augment this by also establishing a probabilistic rate of convergence of the optimal value. We also prove the convex feasibility of the approximate Bayesian stochastic optimization problem. Finally, we demonstrate the utility of our approach on an optimal staffing problem for an M/M/c queueing model. }
 }
 
 
