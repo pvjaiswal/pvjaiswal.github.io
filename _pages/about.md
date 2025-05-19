@@ -1,6 +1,6 @@
 ---
 layout: about
-title: #Postdoctoral Research Associate
+title: #Clinical Assistant Professor
 permalink: /
 subtitle: #<a href='https://stat.tamu.edu'>Department of Statistics, Texas A&M University</a>. Address. 
 
