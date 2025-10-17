@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted at <a href='https://arxiv.org/abs/2108.13504'>Optimization Letters</a>  
+Serving as Academic (Co)-Director of BS Business Analytics & Information Management Program</a>  
