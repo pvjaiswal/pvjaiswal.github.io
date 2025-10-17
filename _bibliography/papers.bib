@@ -12,7 +12,6 @@ Applications to Precision Medicine},
       eprint={},
       journal ={Under preparation for MSOM},
       primaryClass={stat.ML},
-      abstract={Randomized clinical trials often require large patient cohorts before drawing definitive conclusions, yet abundant observational data from parallel studies remains underutilized due to confounding and hidden biases. To bridge this gap, we propose Deconfounded Warm-Start Thompson Sampling (DWTS), a practical approach that leverages a Doubly Debiased LASSO (DDL) procedure to identify a sparse set of reliable measured covariates and combines them with key hidden covariates to form a reduced context. By initializing Thompson Sampling (LinTS) priors with DDL-estimated means and variances on these measured features -- while keeping uninformative priors on hidden features -- DWTS effectively harnesses confounded observational data to kick-start adaptive clinical trials. Evaluated on both a purely synthetic environment and a virtual environment created using real cardiovascular risk dataset, DWTS consistently achieves lower cumulative regret than standard LinTS, showing how offline causal insights from observational data can improve trial efficiency and support more personalized treatment decisions.},
       url={https://arxiv.org/abs/2505.17283} 
 }
 
@@ -24,7 +23,6 @@ Applications to Precision Medicine},
       archivePrefix={arXiv},
       journal      = {Submitted to Transactions of Automatic Control},
       primaryClass={eess.SY},
-      abstract = {"Sim2real gap", in which the system learned in simulations is not the exact representation of the real system, can lead to loss of stability and performance when controllers learned using data from the simulated system are used on the real system. In this work, we address this challenge in the linear quadratic regulator (LQR) setting. Specifically, we consider an LQR problem for a system with unknown system matrices. Along with the state-action pairs from the system to be controlled, a trajectory of length  of state-action pairs from a different unknown system is available. Our proposed algorithm is constructed upon Thompson sampling and utilizes the mean as well as the uncertainty of the dynamics of the system from which the trajectory of length  is obtained. We establish that the algorithm achieves  Bayes regret after  time steps, where  characterizes the \emph{dissimilarity} between the two systems and  is a function of  and . When  is sufficiently small, the proposed algorithm achieves  Bayes regret and outperforms a naive strategy which does not utilize the available trajectory}
       url={https://arxiv.org/abs/2505.09057}
 }
 
