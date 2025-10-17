@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Selected among Top 10% Reviewer for NeurIPS 2025</a>  
+Selected among Top 10% Reviewer for NeurIPS 2025

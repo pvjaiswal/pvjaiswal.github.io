@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Serving as Academic (Co)-Director of BS Business Analytics & Information Management Program</a>  
+Serving as Academic (Co)-Director of BS Business Analytics & Information Management Program
