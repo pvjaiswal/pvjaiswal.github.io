@@ -37,31 +37,31 @@ This course covers nonlinear optimization, constrained optimization, and modern 
     <tr>
       <td>2</td>
       <td>From Prediction to Prescription — Newsvendor &amp; SAA</td>
-      <td><a href="https://github.com/pvjaiswal/AIeOpt/raw/main/Lecture2/lecture2_prediction_to_prescription.pdf" target="_blank">↓ pdf</a></td>
+      <td><a href="{{ site.baseurl }}/teaching/slides/lecture2/">view</a> &nbsp;·&nbsp; <a href="https://raw.githubusercontent.com/pvjaiswal/AIeOpt/main/Lecture2/lecture2_prediction_to_prescription.pdf" target="_blank">↓ pdf</a></td>
       <td><a href="https://github.com/pvjaiswal/AIeOpt/blob/main/Lecture2/optimizer_illustrations.ipynb" target="_blank">view</a></td>
     </tr>
     <tr>
       <td>3</td>
       <td>KKT Conditions for Constrained Optimization</td>
-      <td><a href="https://github.com/pvjaiswal/AIeOpt/raw/main/Lecture3/lecture3_kkt_conditions.pdf" target="_blank">↓ pdf</a></td>
+      <td><a href="{{ site.baseurl }}/teaching/slides/lecture3/">view</a> &nbsp;·&nbsp; <a href="https://raw.githubusercontent.com/pvjaiswal/AIeOpt/main/Lecture3/lecture3_kkt_conditions.pdf" target="_blank">↓ pdf</a></td>
       <td><a href="https://github.com/pvjaiswal/AIeOpt/blob/main/Lecture3/freshchoice_online_sgd.ipynb" target="_blank">view</a></td>
     </tr>
     <tr>
       <td>4</td>
       <td>Stochastic Gradient Descent — Optimizer</td>
-      <td><a href="https://github.com/pvjaiswal/AIeOpt/raw/main/Lecture4/lecture4_sgd_learner.pdf" target="_blank">↓ pdf</a></td>
+      <td><a href="{{ site.baseurl }}/teaching/slides/lecture4/">view</a> &nbsp;·&nbsp; <a href="https://raw.githubusercontent.com/pvjaiswal/AIeOpt/main/Lecture4/lecture4_sgd_learner.pdf" target="_blank">↓ pdf</a></td>
       <td>—</td>
     </tr>
     <tr>
       <td>5</td>
       <td>Global Optimization — Escaping Local Minima</td>
-      <td><a href="https://github.com/pvjaiswal/AIeOpt/raw/main/Lecture5/lecture5_global_optimization.pdf" target="_blank">↓ pdf</a></td>
+      <td><a href="{{ site.baseurl }}/teaching/slides/lecture5/">view</a> &nbsp;·&nbsp; <a href="https://raw.githubusercontent.com/pvjaiswal/AIeOpt/main/Lecture5/lecture5_global_optimization.pdf" target="_blank">↓ pdf</a></td>
       <td><a href="https://github.com/pvjaiswal/AIeOpt/blob/main/Lecture5/swiftship_global_opt.ipynb" target="_blank">view</a></td>
     </tr>
     <tr>
       <td>6</td>
       <td>Bayesian Optimization</td>
-      <td><a href="https://github.com/pvjaiswal/AIeOpt/raw/main/Lecture6/lecture6_bayesian_opt.pdf" target="_blank">↓ pdf</a></td>
+      <td><a href="{{ site.baseurl }}/teaching/slides/lecture6/">view</a> &nbsp;·&nbsp; <a href="https://raw.githubusercontent.com/pvjaiswal/AIeOpt/main/Lecture6/lecture6_bayesian_opt.pdf" target="_blank">↓ pdf</a></td>
       <td><a href="https://github.com/pvjaiswal/AIeOpt/blob/main/Lecture6/swiftship_bayesian_opt.ipynb" target="_blank">view</a></td>
     </tr>
     <tr>
@@ -74,4 +74,4 @@ This course covers nonlinear optimization, constrained optimization, and modern 
 </table>
 </div>
 
-<small class="text-muted">PDF slides open directly in the browser. Use the ↓ link to download. Notebooks link to GitHub's rendered viewer.</small>
+<small class="text-muted">Click <strong>view</strong> to open slides in the browser (arrow keys to navigate). Use <strong>↓ pdf</strong> to download. Notebooks link to GitHub's rendered viewer.</small>

@@ -1,0 +1,121 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.lecture_num }}. {{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <!-- Viewer toolbar -->
+  <div class="slides-toolbar d-flex align-items-center justify-content-between mb-2 flex-wrap gap-2">
+    <div class="btn-group" role="group">
+      <button id="btn-prev" class="btn btn-sm btn-outline-primary" title="Previous slide (←)">&#8592; Prev</button>
+      <button id="btn-next" class="btn btn-sm btn-outline-primary" title="Next slide (→)">Next &#8594;</button>
+    </div>
+    <span id="page-info" class="text-muted small px-2">Slide <strong id="page-num">1</strong> of <strong id="page-count">—</strong></span>
+    <a id="btn-download" href="{{ page.pdf_url }}" download class="btn btn-sm btn-primary">&#8595; Download PDF</a>
+  </div>
+
+  <!-- Canvas -->
+  <div id="canvas-container" style="width:100%; background:#f0f0f0; border:1px solid #ddd; border-radius:4px; overflow:hidden; text-align:center; min-height:200px; display:flex; align-items:center; justify-content:center;">
+    <canvas id="pdf-canvas" style="max-width:100%; display:block; margin:auto;"></canvas>
+    <p id="loading-msg" class="text-muted small" style="position:absolute;">Loading slides…</p>
+  </div>
+
+  <!-- Bottom nav -->
+  <div class="slides-toolbar d-flex align-items-center justify-content-between mt-2 flex-wrap gap-2">
+    <div class="btn-group" role="group">
+      <button id="btn-prev2" class="btn btn-sm btn-outline-primary">&#8592; Prev</button>
+      <button id="btn-next2" class="btn btn-sm btn-outline-primary">Next &#8594;</button>
+    </div>
+    <span class="text-muted small">Use ← → arrow keys to navigate</span>
+    <a href="{{ site.baseurl }}/teaching/" class="btn btn-sm btn-outline-secondary">&#8617; Back to Teaching</a>
+  </div>
+
+</div>
+
+<!-- PDF.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+  pdfjsLib.GlobalWorkerOptions.workerSrc =
+    'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+  const PDF_URL = '{{ page.pdf_url }}';
+  const canvas  = document.getElementById('pdf-canvas');
+  const ctx     = canvas.getContext('2d');
+  const loadMsg = document.getElementById('loading-msg');
+
+  let pdfDoc    = null;
+  let pageNum   = 1;
+  let rendering = false;
+  let pending   = null;
+
+  function getScale() {
+    const container = document.getElementById('canvas-container');
+    const maxWidth  = container.clientWidth - 4;
+    return pdfDoc ? pdfDoc.getPage(pageNum).then(p => {
+      const vp = p.getViewport({ scale: 1 });
+      return Math.min(maxWidth / vp.width, 2.0);
+    }) : Promise.resolve(1.5);
+  }
+
+  function renderPage(num) {
+    rendering = true;
+    pdfDoc.getPage(num).then(function(page) {
+      const container = document.getElementById('canvas-container');
+      const maxWidth  = container.clientWidth - 4;
+      const vpRaw     = page.getViewport({ scale: 1 });
+      const scale     = Math.min(maxWidth / vpRaw.width, 2.0);
+      const viewport  = page.getViewport({ scale });
+
+      canvas.width  = viewport.width;
+      canvas.height = viewport.height;
+      loadMsg.style.display = 'none';
+
+      page.render({ canvasContext: ctx, viewport }).promise.then(function() {
+        rendering = false;
+        document.getElementById('page-num').textContent  = num;
+        if (pending !== null) {
+          renderPage(pending);
+          pending = null;
+        }
+      });
+    });
+  }
+
+  function goTo(num) {
+    if (!pdfDoc) return;
+    num = Math.max(1, Math.min(num, pdfDoc.numPages));
+    if (num === pageNum) return;
+    pageNum = num;
+    if (rendering) { pending = num; } else { renderPage(num); }
+  }
+
+  // Button wiring
+  ['btn-prev','btn-prev2'].forEach(id =>
+    document.getElementById(id).addEventListener('click', () => goTo(pageNum - 1)));
+  ['btn-next','btn-next2'].forEach(id =>
+    document.getElementById(id).addEventListener('click', () => goTo(pageNum + 1)));
+
+  // Keyboard navigation
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') goTo(pageNum + 1);
+    if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp')   goTo(pageNum - 1);
+  });
+
+  // Load PDF
+  pdfjsLib.getDocument(PDF_URL).promise.then(function(doc) {
+    pdfDoc = doc;
+    document.getElementById('page-count').textContent = doc.numPages;
+    renderPage(pageNum);
+  }).catch(function(err) {
+    loadMsg.textContent = 'Could not load slides. Try downloading the PDF directly.';
+    console.error(err);
+  });
+
+  // Re-render on resize
+  window.addEventListener('resize', function() {
+    if (pdfDoc) renderPage(pageNum);
+  });
+</script>
