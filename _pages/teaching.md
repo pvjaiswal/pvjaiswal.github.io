@@ -27,8 +27,8 @@ nav_order: 3
     <tr>
       <td class="code">DSB 60110</td>
       <td><div class="course-title">Industry Practicum</div>
-          <div class="course-desc">An industry practicum course for master's students.</div></td>
-      <td>Master's</td>
+          <div class="course-desc">An industry practicum course for graduate students.</div></td>
+      <td>Graduate</td>
     </tr>
     <tr>
       <td class="code">MGMT 590</td>

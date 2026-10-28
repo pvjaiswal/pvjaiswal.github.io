@@ -26,7 +26,7 @@ I develop the foundations of trustworthy AI for sequential decision-making under
 
 My work rests on two ideas. Imperfect information should be *borrowed, not trusted*: a learning system should judge how much each source deserves as evidence accumulates. And trustworthiness is a matter of *risk, not averages*: a decision system must be judged by how badly it can fail, not only by how it performs on average. I am now applying these ideas to organ transplantation, mobile health, and personalized dosing.
 
-At Purdue I teach management science, spreadsheet modeling and simulation, an industry practicum for master's students, and a graduate course I designed on AI-enhanced optimization.
+At Purdue I teach management science, spreadsheet modeling and simulation, an industry practicum for graduate students, and a graduate course I designed on AI-enhanced optimization.
 
 **Education**
 - Ph.D., Industrial Engineering, Purdue University, 2021

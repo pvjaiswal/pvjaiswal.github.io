@@ -9,11 +9,11 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-## Under review and preprints
+<h2>Under review and preprints</h2>
 
 {% bibliography -f {{ site.scholar.bibliography }} -q @*[status=review]* %}
 
-## Published and accepted
+<h2>Published and accepted</h2>
 
 {% bibliography -f {{ site.scholar.bibliography }} -q @*[status=published]* %}
 
