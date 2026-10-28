@@ -14,3 +14,53 @@ $max-content-width: {{ site.max_width }};
   "distill",
   "cv"
 ;
+
+// ---------------------------------------------------------------------------
+// Site refresh: Source Sans 3, stronger headings, link pills, course table
+// ---------------------------------------------------------------------------
+body, p, li, td, th, div, span, a, .navbar, .btn {
+  font-family: "Source Sans 3", "Source Sans Pro", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+body { font-weight: 400; font-size: 1.05rem; line-height: 1.6; }
+h1, h2, h3, h4, h5, h6, .post-title, .page-title {
+  font-family: "Source Sans 3", "Source Sans Pro", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+.post-title { font-size: 2.4rem; }
+article h2, .publications h2 {
+  font-size: 1.45rem;
+  margin-top: 2rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+.navbar .nav-link { font-weight: 500; text-transform: none; }
+.post-header .desc { font-size: 1.05rem; color: var(--global-text-color-light); }
+
+.link-pills { margin: 0.25rem 0 1.25rem; }
+.link-pills a {
+  display: inline-block;
+  margin: 0 0.35rem 0.4rem 0;
+  padding: 0.15rem 0.65rem;
+  font-size: 0.85rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 4px;
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+.link-pills a:hover { border-color: var(--global-theme-color); color: var(--global-theme-color); }
+
+table.courses { width: 100%; margin-top: 0.5rem; }
+table.courses th {
+  font-weight: 600;
+  border-bottom: 2px solid var(--global-divider-color);
+  padding: 0.5rem 0.6rem;
+}
+table.courses td {
+  vertical-align: top;
+  padding: 0.75rem 0.6rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+table.courses td.code { white-space: nowrap; color: var(--global-text-color-light); }
+table.courses .course-title { font-weight: 600; }
+table.courses .course-desc { font-size: 0.92rem; color: var(--global-text-color-light); margin-top: 0.15rem; }
+

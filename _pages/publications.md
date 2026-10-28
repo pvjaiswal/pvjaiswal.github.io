@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Papers under review and preprints, followed by published and accepted work, newest first.
 nav: true
 nav_order: 1
