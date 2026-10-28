@@ -19,7 +19,7 @@ nav_order: 3
       <td>Undergraduate</td>
     </tr>
     <tr>
-      <td class="code">MGMT 472</td>
+      <td class="code">QM 472</td>
       <td><div class="course-title">Advanced Spreadsheet Modeling and Simulation</div>
           <div class="course-desc">Practical spreadsheet modeling for business problems in finance, marketing, and operations: advanced Excel for preparing and visualizing data (including Power Query and Power Pivot), optimization under constraints with Solver, Monte Carlo simulation of risk with XLRisk, and process simulation with SimQuick to find bottlenecks and improve processes. Students use generative AI to build models faster and learn to validate every result by reconciling, bounding, and stress-testing it.</div></td>
       <td>Undergraduate</td>

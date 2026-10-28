@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Prateek Jaiswal
-    - name: Languages
-      value: English, Hindi
 
 - title: Education
   type: time_table
