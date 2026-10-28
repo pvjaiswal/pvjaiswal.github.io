@@ -8,9 +8,6 @@ profile:
   align: right
   image: Picture1.jpg
   image_circular: true # crops the image to make it circular
-  address: >
-    <p>Young Hall 420</p>
-    <p>West Lafayette, IN 47906</p>
 
 news: true  # includes a list of news items
 social: true  # includes social icons at the bottom of the page
