@@ -2,13 +2,19 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Journal articles, conference papers, and manuscripts under review, newest first.
+description: Papers under review and preprints, followed by published and accepted work, newest first.
 nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
+## Under review and preprints
+
+{% bibliography -f {{ site.scholar.bibliography }} -q @*[status=review]* %}
+
+## Published and accepted
+
+{% bibliography -f {{ site.scholar.bibliography }} -q @*[status=published]* %}
 
 </div>
