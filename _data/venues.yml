@@ -1,6 +1,33 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
+"Mgmt Sci":
+  url: https://pubsonline.informs.org/journal/mnsc
+  color: "#1b4f72"
+"MOR":
+  url: https://pubsonline.informs.org/journal/moor
+  color: "#1b4f72"
+"Stoch Syst":
+  url: https://pubsonline.informs.org/journal/stsy
+  color: "#1b4f72"
+"JMLR":
+  url: https://jmlr.org
+  color: "#7b3f98"
+"TAC":
+  url: https://ieeecss.org/publication/transactions-automatic-control
+  color: "#0d6e6e"
+"NeurIPS":
+  url: https://neurips.cc
+  color: "#b03a2e"
+"SIOPT":
+  url: https://www.siam.org/publications/journals/siam-journal-on-optimization-siopt
+  color: "#2e7d32"
+"Stat":
+  url: https://onlinelibrary.wiley.com/journal/20491573
+  color: "#6d4c41"
+"Optim Lett":
+  url: https://link.springer.com/journal/11590
+  color: "#455a64"
+"WSC":
+  url: https://www.wintersim.org
+  color: "#8a6d0b"
+"AABI":
+  url: http://approximateinference.org
+  color: "#555555"
