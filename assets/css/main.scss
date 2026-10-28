@@ -64,3 +64,12 @@ table.courses td.code { white-space: nowrap; color: var(--global-text-color-ligh
 table.courses .course-title { font-weight: 600; }
 table.courses .course-desc { font-size: 0.92rem; color: var(--global-text-color-light); margin-top: 0.15rem; }
 
+
+
+// CV page
+.cv-section { margin-bottom: 0.5rem; }
+.cv-item { display: flex; justify-content: space-between; align-items: baseline; gap: 1.25rem; padding: 0.4rem 0; }
+.cv-main { flex: 1 1 auto; }
+.cv-sub { font-size: 0.93rem; color: var(--global-text-color-light); }
+.cv-date { flex: 0 0 auto; white-space: nowrap; font-size: 0.92rem; color: var(--global-text-color-light); }
+@media (max-width: 576px) { .cv-item { flex-direction: column; gap: 0; } }
