@@ -2,30 +2,12 @@
 layout: page
 permalink: /cv/
 title: CV
-description:
+description: Awards, talks, experience, and service. Positions, education, and research interests are on the <a href='/'>home page</a>; papers are on the <a href='/publications/'>publications page</a>.
 nav: true
 nav_order: 4
 ---
 
 <div class="link-pills"><a href="/assets/pdf/CV.pdf">Download CV (PDF)</a></div>
-
-<h2>Academic Positions</h2>
-<div class="cv-section">
-  <div class="cv-item"><div class="cv-main"><b>Clinical Assistant Professor</b><div class="cv-sub">Department of Quantitative Methods, Daniels School of Business, Purdue University</div></div><div class="cv-date">Aug 2024 &ndash; present</div></div>
-  <div class="cv-item"><div class="cv-main"><b>Postdoctoral Research Associate</b><div class="cv-sub">Department of Statistics, Texas A&amp;M University</div></div><div class="cv-date">Sep 2021 &ndash; Aug 2024</div></div>
-</div>
-
-<h2>Education</h2>
-<div class="cv-section">
-  <div class="cv-item"><div class="cv-main"><b>Ph.D., Industrial Engineering</b><div class="cv-sub">Purdue University, West Lafayette, IN</div></div><div class="cv-date">2021</div></div>
-  <div class="cv-item"><div class="cv-main"><b>B.Tech., Mechanical Engineering</b><div class="cv-sub">Indian Institute of Technology Patna, India</div></div><div class="cv-date">2012</div></div>
-</div>
-
-<h2>Research Interests</h2>
-<div class="cv-section">
-  <div class="cv-item"><div class="cv-main"><b>Methodology:</b> sequential decision-making, data-driven optimization, Bayesian statistics, and the interplay of machine learning, optimization, and statistics</div><div class="cv-date"></div></div>
-  <div class="cv-item"><div class="cv-main"><b>Applications:</b> healthcare operations, precision medicine, and AI and machine learning for social impact</div><div class="cv-date"></div></div>
-</div>
 
 <h2>Honors and Awards</h2>
 <div class="cv-section">
@@ -36,18 +18,8 @@ nav_order: 4
   <div class="cv-item"><div class="cv-main">Travel grants: Sustainable Horizons Institute (SIAM CSE21 and BE program); PGSG (INFORMS 2020, NeurIPS 2020)</div><div class="cv-date">2020&ndash;2021</div></div>
 </div>
 
-<h2>Publications</h2>
-<p>See the <a href="/publications/">publications page</a> for papers under review, journal articles, and conference papers.</p>
-
-<h2>Teaching</h2>
-<div class="cv-section">
-  <div class="cv-item"><div class="cv-main"><b>Instructor</b>, Daniels School of Business, Purdue University<div class="cv-sub">Management Science (undergraduate) &middot; Advanced Spreadsheet Modeling and Simulation (undergraduate) &middot; Industry Practicum (graduate) &middot; AI-Enhanced Optimization (graduate)</div></div><div class="cv-date"></div></div>
-  <div class="cv-item"><div class="cv-main"><b>Teaching Assistant</b>, School of Industrial Engineering, Purdue University<div class="cv-sub">Engineering Economics &middot; Industrial Applications of Statistics &middot; Operations Research: Stochastic Models &middot; Probability and Statistics in Engineering</div></div><div class="cv-date">2016&ndash;2021</div></div>
-</div>
-
 <h2>Other Experience</h2>
 <div class="cv-section">
-  <div class="cv-item"><div class="cv-main"><b>Givens Associate</b>, Argonne National Laboratory<div class="cv-sub">Multistart algorithms for nonconvex stochastic optimization; tuning a high-energy physics event generator</div></div><div class="cv-date">Summers 2019, 2020</div></div>
   <div class="cv-item"><div class="cv-main"><b>Graduate Research Assistant</b>, School of Industrial Engineering, Purdue University<div class="cv-sub">Variational inference for stochastic programming; large deviations analysis of sample average approximation</div></div><div class="cv-date">2017&ndash;2020</div></div>
   <div class="cv-item"><div class="cv-main"><b>Assistant Manager, Engineering &amp; Projects</b>, Bharat Petroleum Corporation Ltd., India</div><div class="cv-date">2012&ndash;2016</div></div>
   <div class="cv-item"><div class="cv-main"><b>Research Assistant</b>, Centre for Advanced Composites Manufacturing, University of Auckland, New Zealand</div><div class="cv-date">2011</div></div>
@@ -74,7 +46,6 @@ nav_order: 4
 
 <h2>Service</h2>
 <div class="cv-section">
-  <div class="cv-item"><div class="cv-main">Academic Director, B.S. in Business Analytics and Information Management, Daniels School of Business</div><div class="cv-date">2025&ndash;2026</div></div>
   <div class="cv-item"><div class="cv-main">Search Committee, Clinical Assistant/Associate Professors, Daniels School of Business</div><div class="cv-date">2025</div></div>
   <div class="cv-item"><div class="cv-main"><b>Reviewer, journals:</b> Journal of Machine Learning Research; Journal of the American Statistical Association; IISE Transactions; Stochastic Systems; Optimization Letters</div><div class="cv-date"></div></div>
   <div class="cv-item"><div class="cv-main"><b>Reviewer, conferences:</b> NeurIPS; ICML; AISTATS; AAAI; UAI</div><div class="cv-date"></div></div>

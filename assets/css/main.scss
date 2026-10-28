@@ -49,22 +49,11 @@ article h2, .publications h2 {
 }
 .link-pills a:hover { border-color: var(--global-theme-color); color: var(--global-theme-color); }
 
-table.courses { width: 100%; margin-top: 0.5rem; }
-table.courses th {
-  font-weight: 600;
-  border-bottom: 2px solid var(--global-divider-color);
-  padding: 0.5rem 0.6rem;
-}
-table.courses td {
-  vertical-align: top;
-  padding: 0.75rem 0.6rem;
-  border-bottom: 1px solid var(--global-divider-color);
-}
-table.courses td.code { white-space: nowrap; color: var(--global-text-color-light); }
-table.courses .course-title { font-weight: 600; }
-table.courses .course-desc { font-size: 0.92rem; color: var(--global-text-color-light); margin-top: 0.15rem; }
-
-
+.course { padding: 1.1rem 0; border-bottom: 1px solid var(--global-divider-color); }
+.course:last-of-type { border-bottom: none; }
+.course-meta { font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--global-text-color-light); }
+.course h3 { font-size: 1.3rem; font-weight: 600; margin: 0.2rem 0 0.45rem; }
+.course p { margin: 0; }
 
 // CV page
 .cv-section { margin-bottom: 0.5rem; }
