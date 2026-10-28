@@ -3,62 +3,73 @@
 
 @string{aps = {American Physical Society,}}
 
-
-@article{jaiswalDWTS2025,
-      title={Deconfounded Warm-Start Thompson Sampling with
-Applications to Precision Medicine}, 
-      author={Prateek Jaiswal and Esmaeil Keyvanshokooh and Junyu Cao},
-      year={2025},
-      eprint={},
-      journal ={Under preparation for MSOM},
-      primaryClass={stat.ML},
-      url={https://arxiv.org/abs/2505.17283} 
+@article{jaiswal2026trust,
+  title={Learning When to Trust in Observational Data: Deconfounded Transfer for Online Decision-Making},
+  author={Prateek Jaiswal and Esmaeil Keyvanshokooh and Junyu Cao},
+  year={2026},
+  journal={Submitted to Management Science, under review},
+  url={https://arxiv.org/abs/2505.17283},
+  selected={true}
 }
 
-@article{bajaj2025leveragingofflinedatasimilar,
-      title={Leveraging Offline Data from Similar Systems for Online Linear Quadratic Control}, 
-      author={Shivam Bajaj and Prateek Jaiswal and Vijay Gupta},
-      year={2025},
-      eprint={2505.09057},
-      archivePrefix={arXiv},
-      journal      = {Submitted to Transactions of Automatic Control},
-      primaryClass={eess.SY},
-      url={https://arxiv.org/abs/2505.09057}
+@article{roy2026gpts,
+  title={Frequentist Regret Analysis of {GP-TS} via Fractional Posteriors},
+  author={Roy, S. and Jaiswal, Prateek and Pati, Debdeep and Bhattacharya, Anirban and Mallick, Bani K.},
+  year={2026},
+  eprint={2602.14472},
+  archivePrefix={arXiv},
+  journal={Submitted to Stochastic Systems, under review},
+  url={https://arxiv.org/abs/2602.14472}
 }
 
 @article{JaiswalGLTS,
-      title={Frequentist Regret Analysis of Thompson Sampling with Fractional Posteriors for Generalized Linear Bandit}, 
-      author={Prateek Jaiswal and Debdeep Pati and Anirban Bhattacharya and Bani K. Mallick},
-      year={2024},
-      eprint={},
-      archivePrefix={},
-      primaryClass={sts.ML},
-      journal      = {Mathematics of Operations Research(1st revision invited)},
-      abstract = {We propose a variant of the Thompson Sampling~(TS) algorithm for solving stochastic generalized linear bandit problems. We call the proposed algorithm $\alpha$-TS, where we use fractional or $\alpha$-posterior instead of the standard posterior in TS. Our main contribution is to identify general regularity conditions on the prior and reward distributions to generalize the analysis of $\alpha$-TS without assuming any tractable representation (or approximation) of the posterior distribution, unlike previous works. The exponential (generalized linear model) and sub-Gaussian family of distributions satisfy our general conditions on the reward distributions. Our general regret bound yields a regret bound of $O(d^{7/4}\sqrt{T})$ for the exponential family and of $O(d^{2}\sqrt{T})$ for the sub-Gaussian family of reward distributions, which is away by a factor of $d^{3/4}$ and $d$, respectively, from the lower bound. Our proof technique combines the recent advancements in the analysis of linear bandit problems with the first and second-order posterior concentration theory in the Bayesian statistics literature.}
+  title={Posterior Tempering Explains Variance Inflation in Linear and Generalized Linear {T}hompson Sampling},
+  author={Prateek Jaiswal and Debdeep Pati and Anirban Bhattacharya and Bani K. Mallick},
+  year={2026},
+  journal={Revision 1 submitted to Mathematics of Operations Research},
+  url={https://arxiv.org/abs/2609.01999}
 }
 
+@inproceedings{bajaj2026collab,
+  title={Personalized and Collaborative Online {LQR} via {T}hompson Sampling},
+  author={Shivam Bajaj and Prateek Jaiswal and Vijay Gupta},
+  booktitle={Accepted at the 40th Conference on Neural Information Processing Systems (NeurIPS)},
+  year={2026}
+}
+
+@article{bajaj2025leveragingofflinedatasimilar,
+  title={Leveraging Offline Data from Similar Systems for Online Linear Quadratic Control},
+  author={Shivam Bajaj and Prateek Jaiswal and Vijay Gupta},
+  year={2027},
+  eprint={2505.09057},
+  archivePrefix={arXiv},
+  journal={IEEE Transactions on Automatic Control, forthcoming (March 2027 issue)},
+  url={https://arxiv.org/abs/2505.09057}
+}
 
 @article{JaiswalTS,
-      title={Generalized Regret Analysis of {T}hompson Sampling using Fractional Posteriors}, 
-      author={Prateek Jaiswal and Debdeep Pati and Anirban Bhattacharya and Bani K. Mallick},
-      year={2023},
-      eprint={2309.06349},
-      archivePrefix={arXiv},
-      primaryClass={stat.ML},
-      journal      = {Journal of Machine Learning Research (2nd revision invited)},
-      abstract = { Thompson sampling (TS) is one of the most popular and earliest algorithms to solve stochas-
-tic multi-armed bandit problems. We consider a variant of \alpha-TS where we use a
-fractional posterior instead of the standard posterior distribution. To com-
-pute a fractional posterior, the likelihood in the definition of the standard posterior is tempered with a
-factor \alpha. For \alpha-TS we obtain both instance-dependent and instance-independent
-frequentist regret bounds under very mild conditions on the prior and reward distributions, 
-Both the sub-Gaussian and exponential family models satisfy our general conditions on the reward distribution. 
-Our conditions on the prior distribution just require its density to be positive, continuous, and bounded. 
-We also establish another instance-dependent regret upper bound that matches (up to constants) to that of 
-improved UCB [Auer and Ortner, 2010]. Our regret analysis carefully combines recent theoretical developments 
-in the non-asymptotic concentration analysis and Bernstein-von Mises type results for the fractional posterior 
-distribution. Moreover, our analysis does not require additional structural
-properties such as closed-form posteriors or conjugate priors. }
+  title={Generalized Regret Analysis of {T}hompson Sampling using Fractional Posteriors},
+  author={Prateek Jaiswal and Debdeep Pati and Anirban Bhattacharya and Bani K. Mallick},
+  year={2023},
+  eprint={2309.06349},
+  archivePrefix={arXiv},
+  primaryClass={stat.ML},
+  journal={Revision 2 submitted to Journal of Machine Learning Research},
+  abstract={Thompson sampling (TS) is one of the most popular and earliest algorithms to solve stochastic multi-armed bandit problems. We consider a variant of $\alpha$-TS where we use a fractional posterior instead of the standard posterior distribution. To compute a fractional posterior, the likelihood in the definition of the standard posterior is tempered with a factor $\alpha$. For $\alpha$-TS we obtain both instance-dependent and instance-independent frequentist regret bounds under very mild conditions on the prior and reward distributions. Both the sub-Gaussian and exponential family models satisfy our general conditions on the reward distribution. Our conditions on the prior distribution just require its density to be positive, continuous, and bounded. We also establish another instance-dependent regret upper bound that matches (up to constants) to that of improved UCB [Auer and Ortner, 2010]. Our regret analysis carefully combines recent theoretical developments in the non-asymptotic concentration analysis and Bernstein-von Mises type results for the fractional posterior distribution. Moreover, our analysis does not require additional structural properties such as closed-form posteriors or conjugate priors.}
+}
+
+@article{jaiswal2026mhealth,
+  title={Learning to Graduate from Mobile Health Interventions: An Interpretable, Certified Optimal-Stopping Algorithm},
+  author={Jaiswal, Prateek and Zhalechian, M.},
+  year={2026},
+  journal={Working paper}
+}
+
+@article{jaiswal2026kidney,
+  title={Toward Learning-Based Decision Support for Kidney Allocation: Within-Program Candidate Selection Under Ranking Constraints and Confounding},
+  author={Jaiswal, Prateek and Gupta, D.},
+  year={2026},
+  journal={Working paper}
 }
 
 @INPROCEEDINGS{JaiswalSAA,

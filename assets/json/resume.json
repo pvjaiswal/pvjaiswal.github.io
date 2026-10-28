@@ -1,35 +1,53 @@
 {
   "basics": {
     "name": "Prateek Jaiswal",
-    "label": "Postdoctoral Research Associate",
+    "label": "Clinical Assistant Professor",
     "image": "",
-    "email": "jaiswalp@tamu.edu",
+    "email": "jaiswalp@purdue.edu",
     "phone": "(765) 409-5910",
     "url": "https://pvjaiswal.github.io",
     "location": {
-      "address": "3143 TAMU",
-      "postalCode": "TX 77843",
-      "city": "College Station",
+      "address": "Young Hall 420, Daniels School of Business, Purdue University",
+      "postalCode": "47906",
+      "city": "West Lafayette",
       "countryCode": "US",
-      "region": "Texas"
+      "region": "Indiana"
     },
     "profiles": [
       {
-        "network": "LinkedIN",
-        "username": "prateekjaiswal",
-        "url": "www.linkedin.com/in/prateek-jaiswal-035b7a28"
+        "network": "LinkedIn",
+        "username": "prateek-jaiswal-035b7a28",
+        "url": "https://www.linkedin.com/in/prateek-jaiswal-035b7a28"
+      },
+      {
+        "network": "GitHub",
+        "username": "pvjaiswal",
+        "url": "https://github.com/pvjaiswal"
       }
-    ]
+    ],
+    "summary": "Develops trustworthy AI for sequential decision-making under uncertainty, with applications in healthcare."
   },
   "work": [
+    {
+      "name": "Daniels School of Business, Purdue University",
+      "position": "Clinical Assistant Professor, Department of Quantitative Methods",
+      "url": "https://business.purdue.edu",
+      "startDate": "2024-08-01",
+      "endDate": "-",
+      "highlights": [
+        "Teaches Management Science, Advanced Spreadsheet Modeling and Simulation, and AI-Enhanced Optimization",
+        "Academic Director, B.S. in Business Analytics and Information Management (2025-26)"
+      ]
+    },
     {
       "name": "Department of Statistics, Texas A&M University",
       "position": "Postdoctoral Research Associate",
       "url": "https://stat.tamu.edu",
       "startDate": "2021-09-01",
-      "endDate": "-",
+      "endDate": "2024-08-31",
       "highlights": [
-        "Bandits and Reinforcement Learning", "Bayesian Statistics"
+        "Bandits and Reinforcement Learning",
+        "Bayesian Statistics"
       ]
     }
   ],
@@ -56,15 +74,37 @@
   "skills": [],
   "languages": [
     {
-      "language": "Hindi",
-      "fluency": "Native speaker"
-    },
-    {
       "language": "English",
       "fluency": "Fluent"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native speaker"
     }
   ],
   "interests": [],
   "references": [],
-  "projects": []
+  "projects": [],
+  "awards": [
+    {
+      "title": "Top Reviewer Award",
+      "date": "2025",
+      "awarder": "NeurIPS"
+    },
+    {
+      "title": "Community in Curriculum Award",
+      "date": "2025",
+      "awarder": "Daniels School of Business, Purdue University"
+    },
+    {
+      "title": "Finalist, Data Mining Best Paper Competition (General Track)",
+      "date": "2022",
+      "awarder": "INFORMS"
+    },
+    {
+      "title": "Joe Newton Best Poster Award",
+      "date": "2022",
+      "awarder": "Conference on Advances in Data Science: Theory, Methods and Computation"
+    }
+  ]
 }
