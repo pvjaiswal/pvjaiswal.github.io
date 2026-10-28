@@ -22,9 +22,9 @@ social: true  # includes social icons at the bottom of the page
   <a href="mailto:jaiswalp@purdue.edu">Email</a>
 </div>
 
-I develop the foundations of trustworthy AI for sequential decision-making under uncertainty, using tools from operations research, Bayesian statistics, and machine learning. My main application is healthcare, where decision systems must learn from imperfect records, data from other populations, and AI predictions, and where their failures are costly.
+I develop methods for risk-aware sequential decision-making from imperfect data, using tools from operations research, Bayesian statistics, and machine learning. My main application is healthcare, where decision systems must learn from imperfect records, data from other populations, and AI predictions, and where their failures are costly.
 
-My work rests on two ideas: imperfect information should be *borrowed, not trusted*, and trustworthiness is a matter of *risk, not averages*. I am particularly interested in:
+My work rests on two ideas: imperfect information should be *borrowed, not trusted*, and a decision system should be judged by *risk, not averages*. I am particularly interested in:
 
 - **Learning from imperfect information.** How should a learning system use historical records, data from other populations, and AI predictions that it cannot fully trust? How can it learn how far to trust each source as evidence accumulates?
 - **Risk-aware decisions and learning.** How should we judge a decision system by how badly it can fail, not only by how it performs on average? How can a learning algorithm control that risk?

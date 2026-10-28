@@ -8,7 +8,7 @@ middle_name:
 last_name: Jaiswal
 email: jaiswalp[AT]purdue[DOT]edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Prateek Jaiswal is a Clinical Assistant Professor in the Department of Quantitative Methods at the Daniels School of Business, Purdue University. His research develops trustworthy AI for sequential decision-making under uncertainty, with applications in healthcare.
+  Prateek Jaiswal is a Clinical Assistant Professor in the Department of Quantitative Methods at the Daniels School of Business, Purdue University. His research develops methods for risk-aware sequential decision-making from imperfect data, with applications in healthcare.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
